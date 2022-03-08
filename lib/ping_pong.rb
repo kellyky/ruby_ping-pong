@@ -5,7 +5,6 @@ def ping_pong(number)
     : num % 3 == 0 ? 'ping'
     : num
   end
- 
 end
 
 print ping_pong(30)
