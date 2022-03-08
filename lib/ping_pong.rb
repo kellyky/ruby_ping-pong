@@ -1,9 +1,11 @@
 def ping_pong(number)
   (1..number).map do |num|  
-    num % 5 == 0 && num % 3 == 0 ? 'ping-pong' 
-    : num % 5 == 0 ? 'pong'
-    : num % 3 == 0 ? 'ping' 
-    : num 
+    ping = (num % 3 == 0)
+    pong = (num % 5 == 0)
+    ping && pong ? 'ping-pong'
+    : pong ? 'pong'
+    : ping ? 'ping'
+    : num
   end
  
 end
