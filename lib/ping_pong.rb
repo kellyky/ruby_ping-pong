@@ -6,5 +6,3 @@ def count(number)
     : num 
   } 
 end
-
-# print count(3)
