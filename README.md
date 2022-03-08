@@ -33,4 +33,4 @@ describe('#ping_pong') do
     expect(ping_pong(2)).to(eq([1,2]))
   end
   ```
- 
+ See also Epicodus' article: [The Red Green Refactor Workflow](https://www.learnhowtoprogram.com/ruby-and-rails/tdd-with-ruby/the-red-green-refactor-workflow)
